@@ -5,6 +5,24 @@ none = "none"
 name = "Posts"
 pageRef = "posts"
 identifier = "7vQ06o0SqL"
+weight = 1
+
+[[main]]
+name = "Motivation"
+pageRef = "motivation"
+identifier = "liUqp6ZBNg"
+weight = 9_999
+
+[[main]]
+name = "Me"
+pageRef = "me"
+identifier = "4XK6q59oB0"
+weight = 9_999
+
+[[main]]
+name = "Resume"
+pageRef = "resume"
+identifier = "1fQk6Z0a85"
 weight = 9_999
 
 [[footer]]
