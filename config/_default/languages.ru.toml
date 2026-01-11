@@ -1,0 +1,11 @@
+disabled = false
+languageCode = "ru"
+languageName = "Русский"
+weight = 2
+title = "bpetrukovich"
+
+[params]
+displayName = "RU"
+isoCode = "ru"
+rtl = false
+dateFormat = "2 Января 2006"
