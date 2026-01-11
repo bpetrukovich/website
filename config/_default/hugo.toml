@@ -6,6 +6,7 @@
 # TODO: index in google
 # TODO: ensure good lighthouse score
 # TODO: add README.md
+# TODO: think about "Powered by Hugo & Blowfish" in footer
 
 theme = "blowfish"  # UNCOMMENT THIS LINE
 defaultContentLanguage = "en"
