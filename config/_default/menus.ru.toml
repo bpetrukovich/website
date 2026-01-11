@@ -1,0 +1,29 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Посты"
+pageRef = "posts"
+identifier = "7vQ06o0SqL"
+weight = 1
+
+[[main]]
+name = "Мотивация"
+pageRef = "motivation"
+identifier = "liUqp6ZBNg"
+weight = 9_999
+
+[[main]]
+name = "Обо мне"
+pageRef = "me"
+identifier = "4XK6q59oB0"
+weight = 9_999
+
+[[main]]
+name = "Резюме"
+pageRef = "resume"
+identifier = "1fQk6Z0a85"
+weight = 9_999
+
+[[footer]]
+none = "none"
