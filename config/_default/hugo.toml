@@ -3,6 +3,7 @@
 # TODO: change favicon
 # TODO: tweak bg color
 # TODO: buy domain
+# TODO: index in google
 
 theme = "blowfish"  # UNCOMMENT THIS LINE
 defaultContentLanguage = "en"
