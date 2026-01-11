@@ -4,6 +4,7 @@
 # TODO: tweak bg color
 # TODO: buy domain
 # TODO: index in google
+# TODO: ensure good lighthouse score
 
 theme = "blowfish"  # UNCOMMENT THIS LINE
 defaultContentLanguage = "en"
