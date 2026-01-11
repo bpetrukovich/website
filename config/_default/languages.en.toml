@@ -10,12 +10,6 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 
-[[params.author.links]]
-github = "https://github.com/bpetrukovich"
-
-[[params.author.links]]
-linkedin = "https://linkedin.com/in/bpetrukovich"
-
 ["params.author"]
 name = "Bogdan Petrukovich"
 headline = "Fullstack dev @ itransition"

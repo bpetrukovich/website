@@ -67,3 +67,9 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+
+[[params.author.links]]
+github = "https://github.com/bpetrukovich"
+
+[[params.author.links]]
+linkedin = "https://linkedin.com/in/bpetrukovich"
