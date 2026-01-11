@@ -9,11 +9,3 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-
-["params.author"]
-# TODO: think about adding a photo
-name = "Bogdan Petrukovich"
-# TODO: add textdecoration to links
-# TODO: add subtitle
-headline = "Fullstack dev at <a href=\"https://www.itransition.com/\" target=\"_blank\" rel=\"noopener noreferrer\">itransition</a> · student at <a href=\"https://www.bsuir.by/en/\" target=\"_blank\" rel=\"noopener noreferrer\">BSUIR</a>"
-bio = "Obsessed with learning and building every day"
