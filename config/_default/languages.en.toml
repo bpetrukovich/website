@@ -12,5 +12,6 @@ dateFormat = "2 January 2006"
 
 ["params.author"]
 name = "Bogdan Petrukovich"
-headline = "Fullstack dev @ itransition"
-bio = "Constantly exploring new tech"
+# TODO: add textdecoration to links
+headline = "Fullstack dev at <a href=\"https://www.itransition.com/\" target=\"_blank\" rel=\"noopener noreferrer\">itransition</a> · student at <a href=\"https://www.bsuir.by/en/\" target=\"_blank\" rel=\"noopener noreferrer\">BSUIR</a>"
+bio = "Obsessed with learning and building every day"
