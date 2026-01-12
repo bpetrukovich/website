@@ -1,30 +1,49 @@
 .career-timeline {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto 20px 1fr;
   margin: 2rem 0;
 }
 
 .career-item {
   display: grid;
-  grid-template-columns: 150px 20px 1fr;
-  gap: 0;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
   position: relative;
 }
 
 .career-item__date {
   padding-right: 1rem;
-  text-align: right;
   padding-top: 0.125rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.career-item__date span {
+.career-item__date-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-item__date-inner > span {
   font-size: 0.875rem;
   font-weight: 500;
   color: rgb(var(--color-neutral-500));
+  white-space: nowrap;
 }
 
-.dark .career-item__date span {
+.dark .career-item__date-inner > span {
   color: rgb(var(--color-neutral-400));
+}
+
+.career-item__date-separator {
+  width: 1px;
+  height: 0.75rem;
+  background-color: rgb(var(--color-neutral-300));
+  margin: 0.25rem 0;
+}
+
+.dark .career-item__date-separator {
+  background-color: rgb(var(--color-neutral-600));
 }
 
 .career-item__marker {
@@ -105,8 +124,8 @@
 
 .career-year {
   display: grid;
-  grid-template-columns: 150px 20px 1fr;
-  gap: 0;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
 }
 
 .career-year__label {
@@ -139,18 +158,33 @@
 }
 
 @media (max-width: 640px) {
-  .career-item {
+  .career-timeline {
     grid-template-columns: 14px 1fr;
+  }
+
+  .career-item {
     grid-template-rows: auto auto;
   }
  
   .career-item__date {
     grid-column: 2;
     grid-row: 1;
-    text-align: left;
     padding-right: 0;
     padding-left: 0.75rem;
     padding-bottom: 0.125rem;
+    justify-content: flex-start;
+  }
+
+  .career-item__date-inner {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .career-item__date-separator {
+    width: 0.75rem;
+    height: 1px;
+    margin: 0;
   }
  
   .career-item__marker {
@@ -164,9 +198,6 @@
     padding-left: 0.75rem;
   }
 
-  .career-year {
-    grid-template-columns: 14px 1fr;
-  }
 
   .career-year__label {
     grid-column: 2;

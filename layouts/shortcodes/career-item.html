@@ -1,8 +1,15 @@
 {{ $date := .Get "date" }}
+{{ $dateTo := .Get "to" }}
 {{ $highlight := .Get "highlight" | default false }}
 <div class="career-item{{ if $highlight }} career-item--highlight{{ end }}">
   <div class="career-item__date">
-    <span>{{ $date }}</span>
+    <div class="career-item__date-inner">
+      <span>{{ $date }}</span>
+      {{ if $dateTo }}
+      <span class="career-item__date-separator"></span>
+      <span>{{ $dateTo }}</span>
+      {{ end }}
+    </div>
   </div>
   <div class="career-item__marker">
     <span class="career-item__dot"></span>

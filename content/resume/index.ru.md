@@ -28,7 +28,7 @@ layoutBackgroundHeaderSpace = false
 
 {{< career-year "2024" >}}
 
-{{< career-item date="Ноябрь 2024 — Январь 2025" >}}
+{{< career-item date="Ноябрь 2024" to="Январь 2025" >}}
 Прошёл интенсивный курс-стажировку **«Commercial Software Development — C#»**, получив предложение о трудоустройстве в itransition
 {{< /career-item >}}
 
@@ -50,7 +50,7 @@ layoutBackgroundHeaderSpace = false
 **Признан одним из лучших сотрудников** по итогам полугодия. [Подробности в посте на LinkedIn](https://www.linkedin.com/posts/bpetrukovich_im-happy-to-share-a-significant-milestone-activity-7365111561054593025-HqOP)
 {{< /career-item >}}
 
-{{< career-item date="Сентябрь — Декабрь" >}}
+{{< career-item date="Сентябрь" to="Декабрь" >}}
 Полностью **владел процессом от идеи до реализации** новой большой функциональности продукта: проработка ТЗ, оценка, создание Proof of Concept и имплементация ключевых story в роли Fullstack
 {{< /career-item >}}
 
