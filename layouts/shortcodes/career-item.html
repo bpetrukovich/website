@@ -1,0 +1,15 @@
+{{ $date := .Get "date" }}
+{{ $highlight := .Get "highlight" | default false }}
+<div class="career-item{{ if $highlight }} career-item--highlight{{ end }}">
+  <div class="career-item__date">
+    <span>{{ $date }}</span>
+  </div>
+  <div class="career-item__marker">
+    <span class="career-item__dot"></span>
+    <span class="career-item__line"></span>
+  </div>
+  <div class="career-item__content">
+    {{- .Inner | markdownify -}}
+  </div>
+</div>
+
