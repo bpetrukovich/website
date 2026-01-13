@@ -7,6 +7,7 @@
 # TODO: ensure good lighthouse score
 # TODO: add README.md
 # TODO: think about "Powered by Hugo & Blowfish" in footer
+# TODO: think about changing top left link text
 
 theme = "blowfish"  # UNCOMMENT THIS LINE
 defaultContentLanguage = "en"
