@@ -20,8 +20,6 @@ showLikes = false
 showAuthor = true
 layoutBackgroundHeaderSpace = false
 
-# TODO: add resume
-
 +++
 
 ## Key Achievements
