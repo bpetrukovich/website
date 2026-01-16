@@ -144,6 +144,15 @@
   background-color: rgb(var(--color-neutral-700));
 }
 
+header > h2 a {
+  color: rgb(var(--color-primary-500));
+  transition: color 0.2s ease;
+}
+
+.dark header > h2 a {
+  color: rgb(var(--color-primary-400));
+}
+
 @media (max-width: 640px) {
   .career-timeline {
     grid-template-columns: 14px 1fr;
